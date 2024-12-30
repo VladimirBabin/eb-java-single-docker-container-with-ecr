@@ -5,21 +5,6 @@
 To practice elastic beanstalk from the command line on your local environment clone the repo and install the eb cli first using these instructions:
 https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install.html
 
-Here's a tutorial with the steps to deploy a sample Java app to Elastic Beanstalk, please consult in case of any basic questions arise:
-https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/java-quickstart.html#java-quickstart-run-local
-
-## Docker
-
-To test starting the app in a docker container locally follow these steps:
-1. build docker image 
-```bash
-docker build -t eb-java-docker . 
-```
-2. run  docker container 
-```bash
-docker run -p 8001:8001 eb-java-docker
-```
-
 ## Steps for ECR deployment (take these steps before the current one):
 
 1. build docker image locally
