@@ -20,7 +20,6 @@ aws ecr get-login-password --region <region> | docker login --username AWS --pas
 ```
 
 4. get image id with docker images command
-   c0721af92efe
 5. tag image
 ```bash
 docker tag <image_id> <aws_account_id>.dkr.ecr.<region>.amazonaws.com/<image_name>
@@ -32,7 +31,6 @@ docker push <aws_account_id>.dkr.ecr.<region>.amazonaws.com/<image_name>
 ```
 
 7. create an additional project with ed-java-external name and add Dockerrun.aws.json file in the project directory
-
 
 ## Current steps:
 
