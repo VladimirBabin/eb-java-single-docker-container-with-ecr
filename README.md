@@ -61,6 +61,11 @@ eb init
 - choose app name
 - choose docker platform
 
+10. create eb environment
+```bash
+eb create --signle
+```
+
 ## Basic commands
 
 After the eb cli is configured, use the following commands to deploy the app:
