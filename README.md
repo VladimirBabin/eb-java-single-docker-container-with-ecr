@@ -46,7 +46,7 @@ eb init
 
 10. create eb environment
 ```bash
-eb create --signle
+eb create --single
 ```
 
 ## Basic commands
